@@ -1,8 +1,8 @@
 class LynisGcx < Formula
   desc "Security and system auditing tool to harden systems"
   homepage "https://cisofy.com/lynis/"
-  url "https://github.com/florian-sonnenschein-gcx/lynis/archive/refs/tags/3.0.9-gcx.tar.gz"
-  sha256 "23c6dafa82812d6b5c7aaaa433264bcb0980b1791337ee4b240d735b489aa612"
+  url "https://github.com/florian-sonnenschein-gcx/lynis/archive/refs/tags/3.1.0-gcx.tar.gz"
+  sha256 "930afcca46a97dcf7507df8daf1f53bf91598f08b4c949f16302d939c83e0c4a"
   license "GPL-3.0-only"
 
   conflicts_with "lynis", because: "both install the same binaries - please uninstall lynis first and then retry the installation of lynis-gcx"
